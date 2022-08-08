@@ -32,7 +32,7 @@ terraform destroy
 Get ssh private key:
 
 ```sh
-scp -i sshKey.pem sshKey.pem  ubuntu@PUBLIC_IP(instance1):~/
+scp -i sshKey.pem sshKey.pem ubuntu@PUBLIC_IP(instance1):~/
 chmod 400 sshKey.pem
 ssh -i sshKey.pem ubuntu@Private_IP(instance2)
 ```
@@ -47,7 +47,7 @@ Connect to the private instance - use the public instance as a jump server:
 
 ```sh
 # send ssh key to the public instance
-scp -i sshKey.pem sshKey.pem  ubuntu@PUBLIC_IP(instance1):~/
+scp -i sshKey.pem sshKey.pem ubuntu@PUBLIC_IP(instance1):~/
 
 # ssh to the public instance
 ssh -i sshKey.pem ubuntu@Public_IP(instance1)
