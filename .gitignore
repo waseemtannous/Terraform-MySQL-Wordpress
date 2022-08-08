@@ -1,0 +1,5 @@
+secret.txt
+.terraform
+.terraform.*
+terraform.*
+sshKey.pem
