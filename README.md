@@ -1,6 +1,6 @@
 # Terraform-MySQL-Wordpress
 
-The objective is to create a Terraform configuration file that will create:
+The objective is to create Terraform configuration files that will create:
 
 - VPC.
 - 2 Subnets: one private and one public.
