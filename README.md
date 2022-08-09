@@ -11,6 +11,8 @@ The objective is to create Terraform configuration files that will create:
 - EC2 instance running Wordpress container on the public subnet.
 - EC2 instance running MySQL container on the private subnet.
 
+![architecture](images/architecture.jpg)
+
 To deploy the environment, run the following commands:
 
 ```sh
